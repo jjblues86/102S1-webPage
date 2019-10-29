@@ -1,0 +1,26 @@
+body{
+  position: relative;
+  background-color: #ffffff;
+  width: 750px;
+  margin: 0 auto;
+  text-align: justify;
+
+}
+
+h1{
+  text-align: center;
+  background-color: dodgerblue;
+}
+
+img{
+  float: left;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+  margin: 0 0 0 0;
+}
+
+footer{
+  text-align: center;
+  background-color: #1e90ff;
+}
