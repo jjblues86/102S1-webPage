@@ -4,13 +4,76 @@ body{
   width: 750px;
   margin: 0 auto;
   text-align: justify;
+}
 
+.main-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(111, 221, 216);
+  overflow: hidden;
+  
+}
+
+.nav-list li{
+  display: inline;
+}
+
+.nav-list a:hover{
+  background-color: rgb(115, 128, 185);
+}
+
+.nav {
+  display: inline;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(145, 187, 235);
 }
 
 h1{
   text-align: center;
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
 }
+
+#welcome{
+  text-align: center;
+  font: italic;
+  font-weight: bold;
+}
+
+.question{
+  text-align: center;
+  font-weight: bold;
+}
+
+.button{
+  text-align: center;
+  
+}
+
+#math {
+  text-align: center;
+
+}
+
+.page-content li{
+  list-style-type: none;
+  /* padding: 10px; */
+  position: relative;
+  padding-left: 20px;
+}
+
+.page-content li:before{
+  content: "\25BA \0020";
+  position: absolute;
+  top: 5px;
+  left: -10px;
+}
+
 
 img{
   float: left;
@@ -22,5 +85,7 @@ img{
 
 footer{
   text-align: center;
-  background-color: #1e90ff;
+  background-color: rgb(111, 221, 216);
+  padding: 5px;
+  margin: 15px;
 }

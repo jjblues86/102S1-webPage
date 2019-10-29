@@ -8,15 +8,28 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="main-nav">
+    <ul class="nav-list">
+      <li><a class="active nav" href="index.html">Home</a></li>
+      <li><a class="nav" href="learning.html">Learning Journal</a></li>
+      <!-- <li><a class="nav" href="contact.html">Contact Me</a></li> -->
 
-  <h1>Welcome To My Web Page!</h1>
+    </ul>
+  </nav>
+
+  <p id="welcome">
+    Hello
+  </p>
+
+  <h1 >Welcome To My Web Page!</h1>
+
 
   <main class="content">
 
     <!-- <h3>Introduction</h3> -->
  <p><img src="assets/jerome.jpeg" alt="">  My name is Jerome Joof, I am a Software Engineer. I have an experience working in the Insurance sector before I pursued my life-long goal of becoming a software engineer. I completed a certification in FullStack Software Development in JavaScript. I am originally from Gambia, West Afica and I have been living in the U.S for the past 9 years. I love to challenge myself and continually learning different technologies to equip me in the best way possible to execute my work as a software engineer. I love soccer and have been playing the sport since I was a kid. My favorite things to do are:</p>
   
-    <ul>
+    <ul class="hobbies">
       <li>Hiking</li>
       <li>Playing/Watching Soccer(Man United)</li>
       <li>Building websites</li>
@@ -26,8 +39,15 @@
   
     <h4>Growth Mindset</h4>
     <blockquote>Is the ability to believe that you can do whatever you set your mind to. The growth mindset equips you to undertake challenges and strive from them, it also enables you to learn from your mistakes and bad habits in order to be a better version of yourself productively.</blockquote>
+
+    <p class="question">Are you having a fantastic day so far?</p>
+    <div class="button">
+        <button onclick="response()">Please respond</button>
+
+    </div>
     
   </main>
+  <script src="app.js"></script>
 </body>
-<footer>&copy Jerome Joof | Tel: 620-966-6487 | Email:jeromejoof@yahoo.com </footer>
+<footer>&copy Jerome Joof</footer>
 </html>
