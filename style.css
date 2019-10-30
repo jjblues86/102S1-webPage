@@ -39,6 +39,13 @@ h1{
   /* background-color: dodgerblue; */
 }
 
+h3{
+  clear: left; 
+  width: 320px;
+  background-color: #fff;
+  color: #d6510a;
+  text-align: center;}
+
 #welcome{
   text-align: center;
   font: italic;
