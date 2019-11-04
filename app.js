@@ -3,12 +3,13 @@
 //Prompt window
 var name = prompt("Please enter your name  ", "");
 name = name.toUpperCase();
+// name = toString.call(name);
 // name = String();
 
 if(name != null) {
   document.getElementById("welcome").innerHTML = "Hello " + name + " How is it going?";
  } else {
-  document.getElementById("not").innerHTML = "Please enter your name!";
+ prompt('you need to enter your name');
  }
 
 

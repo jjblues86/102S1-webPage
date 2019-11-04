@@ -87,7 +87,26 @@ img{
   width: 250px;
   height: 250px;
   padding: 25px;
-  margin: 0 0 0 0;
+  /* position: absolute; */
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  /* margin: 0 0 0 0; */
+  /* transition-duration: 2000ms; */
+}
+img .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+/* img .back {
+  transform: rotateY(180deg);
+} */
+
+
+img:hover {
+  /* background-color: rgb(115, 128, 185); */
+  transform: rotateY(180deg);
 }
 
 footer{
